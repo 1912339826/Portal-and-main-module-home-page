@@ -1,0 +1,145 @@
+{
+    "sidebar": [
+        {
+            "id": 1,
+            "name": "信息门户",
+            "img": "门户_03",
+            "src": "",
+            "url": "portalIndex",
+            "toplist": []
+        },
+        {
+            "id": 2,
+            "name": "综合管理平台",
+            "img": "综合管控平台_03",
+            "src": "",
+            "url": "synthesizeIndex",
+            "toplist": {
+                "synthesizePosture": {
+                    "name": "综合态势",
+                    "nameUrl": "synthesizePosture",
+                    "child": [
+                        {
+                            "name": "四个字的",
+                            "url": "synthesizePostureThreeLV",
+                            "nameUrl": "synthesizePostureThreeLV"
+                        },
+                        {
+                            "name": "四个字的",
+                            "url": "",
+                            "nameUrl": ""
+                        }
+                    ]
+                },
+                "synthesizeWarning": {
+                    "name": "异常情况告警",
+                    "nameUrl": "synthesizeWarning",
+                    "child": [
+                        {
+                            "name": "四个字的",
+                            "url": "",
+                            "nameUrl": ""
+                        }
+                    ]
+                },
+                "synthesizeBombshell": {
+                    "name": "突发事件处置",
+                    "nameUrl": "synthesizeBombshell",
+                    "child": [
+                        {
+                            "name": "四个字的",
+                            "url": "",
+                            "nameUrl": ""
+                        }
+                    ]
+                },
+                "synthesizeManagement": {
+                    "name": "系统运维管理",
+                    "nameUrl": "synthesizeManagement",
+                    "child": [
+                        {
+                            "name": "四个字的",
+                            "url": "",
+                            "nameUrl": ""
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 3,
+            "name": "智慧管理",
+            "img": "平台管理_03",
+            "src": "",
+            "url": "witManageIndex",
+            "toplist": [
+                "值班管理",
+                "人员管理",
+                "车辆管理",
+                "会议室管理",
+                "实验室管理",
+                "枪弹管理",
+                "涉密载体",
+                "多媒体发布",
+                "固定资产",
+                "信函通知",
+                "科技档案"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "智慧安防",
+            "img": "安防监控_03",
+            "src": "",
+            "url": "witsecurityIndex",
+            "toplist": [
+                "视频监控",
+                "紧急报警",
+                "周界管理",
+                "人员出入管控",
+                "车辆出入管控"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "智慧保障",
+            "img": "保障_03",
+            "src": "",
+            "url": "witsafeguardIndex",
+            "toplist": [
+                "营产维修管理",
+                "被装调号管理",
+                "就餐服务",
+                "保障设施查询"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "动环监控",
+            "img": "动环监控_03",
+            "src": "",
+            "url": "",
+            "toplist": []
+        },
+        {
+            "id": 7,
+            "name": "资源管理平台",
+            "img": "平台管理_03",
+            "src": "",
+            "url": "authorityIndex",
+            "toplist": [
+                "态势配置",
+                "身份认证",
+                "地理信息",
+                "物联感知",
+                "流程设计",
+                "数据采集",
+                "数据治理",
+                "数据主题",
+                "数据分析",
+                "知识图谱",
+                "共享发布"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,215 @@
+{
+    "toplist": {
+        "portalIndex": {
+            "clickurl": "portalIndex",
+            "clickname": "信息门户",
+            "toplist":[]
+        },
+        "synthesizeIndex": {
+            "clickurl": "synthesizeIndex",
+            "clickname": "综合管理平台",
+            "toplist": [
+                {
+                    "name": "综合态势",
+					"textUrl":"/menu/zhts.json",
+                    "url": "synthesizeIndex"
+                },
+                {
+                    "name": "异常情况告警",
+					"textUrl":"/menu/ycqkgj.json",
+                    "url": "synthesizeIndex"
+                },
+                {
+                    "name": "突发事件处置",
+					"textUrl":"/menu/tfsjcz.json",
+                    "url": "synthesizeIndex"
+                },
+                {
+                    "name": "系统运维管理",
+					"textUrl":"/menu/xtywgl.json",
+                    "url": "synthesizeIndex"
+                }
+            ]
+        },
+        "witManageIndex": {
+            "clickurl": "witManageIndex",
+            "clickname": "智慧管理",
+            "toplist": [
+                {
+                    "name": "实验室管理",
+					"textUrl":"/menu/sssgl.json",
+                    "url": "witManageIndex"
+                },
+                {
+                    "name": "涉密载体管理",
+					"textUrl":"/menu/smztgl.json",
+                    "url": "witManageIndex"
+                },
+                {
+                    "name": "枪械弹药管理",
+					"textUrl":"/menu/qxdygl.json",
+                    "url": "witManageIndex"
+                },
+                {
+                    "name": "多媒体发布",
+					"textUrl":"/menu/dmtfb.json",
+                    "url": "witManageIndex"
+                },
+                {
+                    "name": "固定资产管理",
+					"textUrl":"/menu/gdzcgl.json",
+                    "url": "witManageIndex"
+                },
+                {
+                    "name": "信函与通知管理",
+					"textUrl":"/menu/xhtzgl.json",
+                    "url": "witManageIndex"
+                },
+                {
+                    "name": "科技档案管理",
+					"textUrl":"/menu/kjdagl.json",
+                    "url": "witManageIndex"
+                }
+            ]
+        },
+        "witsecurityIndex": {
+            "clickurl": "witsecurityIndex",
+            "clickname": "智慧安防",
+            "toplist": [
+                {
+                    "name": "周界报警",
+					"textUrl":"/menu/zjbj.json",
+                    "url": "witsecurityIndex"
+                },
+                {
+                    "name": "视频监控",
+					"textUrl":"/menu/spjk.json",
+                    "url": "witsecurityIndex"
+                },
+                {
+                    "name": "紧急报警",
+					"textUrl":"/menu/jjbj.json",
+                    "url": "witsecurityIndex"
+                },
+                {
+                    "name": "人员出入管控",
+					"textUrl":"/menu/rycrgk.json",
+                    "url": "witsecurityIndex"
+                },
+                {
+                    "name": "车辆出入管控",
+					"textUrl":"/menu/clcrgk.json",
+                    "url": "witsecurityIndex"
+                }
+            ]
+        },
+        "witsafeguardIndex": {
+            "clickurl": "witsafeguardIndex",
+            "clickname": "智慧保障",
+            "toplist": [
+                {
+                    "name": "营产维修管理",
+					"textUrl":"/menu/ycwxgl.json",
+                    "url": "witsafeguardIndex"
+                },
+                {
+                    "name": "被装调号管理",
+					"textUrl":"/menu/bzdhgl.json",
+                    "url": "witsafeguardIndex"
+                },
+                {
+                    "name": "生活设施信息查询",
+					"textUrl":"/menu/shssxxcx.json",
+                    "url": "witsafeguardIndex"
+                },
+                {
+                    "name": "财务预算管理",
+					"textUrl":"/menu/cwysgl.json",
+                    "url": "witsafeguardIndex"
+                },
+                {
+                    "name": "一卡通应用拓展",
+					"textUrl":"/menu/yktyykz.json",
+                    "url": "witsafeguardIndex"
+                }
+            ]
+        },
+        "zero": {
+            "clickurl": "",
+            "clickname": "动环监控",
+            "toplist": [
+                {
+                    "name": "供水监控",
+					"textUrl":"/menu/gsjk.json",
+                    "url": ""
+                },
+				 {
+                    "name": "供电监控",
+					"textUrl":"/menu/gdjk.json",
+                    "url": ""
+                },
+				 {
+                    "name": "机房监控",
+					"textUrl":"/menu/jfjk.json",
+                    "url": ""
+                },
+				 {
+                    "name": "消防接入",
+					"textUrl":"/menu/xfjr.json",
+                    "url": ""
+                },
+				 {
+                    "name": "故障诊断",
+					"textUrl":"/menu/gzzd.json",
+                    "url": ""
+                }
+            ]
+        },
+        "authorityIndex": {
+            "clickurl": "authorityIndex",
+            "clickname": "资源管理平台",
+            "toplist": [
+                {
+                    "name": "物联感知服务",
+					"textUrl":"/menu/wlgzfw.json",
+                    "url": "authorityIndex"
+                },
+                {
+                    "name": "态势展现框架",
+					"textUrl":"/menu/tszxkj.json",
+                    "url": "authorityIndex"
+                },
+                {
+                    "name": "统一门户框架",
+					"textUrl":"/menu/tymhkj.json",
+                    "url": "authorityIndex"
+                },
+                {
+                    "name": "统一身份认证",
+					"textUrl":"/menu/tysfrz.json",
+                    "url": "authorityIndex"
+                },
+                {
+                    "name": "统一消息服务",
+					"textUrl":"/menu/tyxxfw.json",
+                    "url": "authorityIndex"
+                },
+                {
+                    "name": "流程设计服务",
+					"textUrl":"/menu/lcsjfw.json",
+                    "url": "authorityIndex"
+                },
+                {
+                    "name": "跨网交互服务",
+					"textUrl":"/menu/kwjhfw.json",
+                    "url": "authorityIndex"
+                },
+                {
+                    "name": "系统运维管理",
+					"textUrl":"/menu/xtywgl.json",
+                    "url": "authorityIndex"
+                }
+            ]
+        }
+    }
+}

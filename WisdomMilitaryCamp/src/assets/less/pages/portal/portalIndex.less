@@ -1,0 +1,493 @@
+.portalIndex {
+    padding: 0.625vw;
+    height: 49vw;
+    width: 89.5vw;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+      width: 1px;
+    }
+    .portalIndex-top {
+      display: flex;
+      align-items: center;
+      .portal-statisticaldata {
+        width: 66.294vw;
+        height: 5.208vw;
+        display: flex;
+        align-items: center;
+        padding-left: 1.04vw;
+        padding-right: 0.89vw;
+        background-color: #ffffff;
+        box-shadow: 0vw 0.16vw 0.47vw 0vw rgba(172, 200, 219, 0.46);
+        border-radius: 0.313vw;
+        border: solid 1px rgba(62, 147, 238, 0.2);
+        // 分割
+        .slicer {
+          margin-left: 0.99vw;
+          margin-right: 1.04vw;
+          width: 0.05vw;
+          height: 3.65vw;
+          background-color: hsla(211, 84%, 59%, 0.24);
+        }
+        .datachild {
+          width: 8.281vw;
+          nav {
+            text-align: center;
+            height: 0.89vw;
+            font-family: "SourceHanSansCN-Regular";
+            font-size: 24px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 0px;
+            color: #666666;
+            margin-bottom: 0.63vw;
+          }
+          section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span {
+              display: block;
+              height: 50px;
+              line-height: 50px;
+              font-family: "SourceHanSansCN-Regular";
+              font-size: 1.6667vw;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 0px;
+            }
+            img {
+              width: 1.88vw;
+              height: 1.88vw;
+            }
+          }
+          &:nth-child(1) {
+            width: 7.188vw;
+          }
+          &:last-child {
+            width: 7.188vw;
+          }
+        }
+      }
+  
+      .portal-usermsg {
+        display: flex;
+        padding: 0.781vw;
+        margin-left: 0.625vw;
+        width: 21.615vw;
+        height: 5.208vw;
+        background-image: linear-gradient(-30deg, #1b5ab8 0%, #1054b2 100%),
+          linear-gradient(#ffffff, #ffffff);
+        background-blend-mode: normal, normal;
+        box-shadow: 0vw 0.156vw 0.469vw 0vw rgba(172, 200, 219, 0.46);
+        border-radius: 0.313vw;
+        border: solid 2px rgba(62, 147, 238, 0.2);
+        font-family: "SourceHanSansCN-Regular";
+        font-size: 0.833vw;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 0px;
+        color: #ffffff;
+        .userimg {
+          width: 3.646vw;
+          height: 3.646vw;
+          border-radius: 0.313vw;
+          margin-right: 0.833vw;
+        }
+        .usermsgleft {
+          display: flex;
+          align-items: center;
+          .active {
+            width: 0.729vw;
+            height: 0.729vw;
+            margin-right: 0.26vw;
+          }
+          .nameandhandle {
+            div {
+              margin-top: 0.313vw;
+              display: flex;
+              align-items: center;
+              text-decoration: underline;
+              color: hsla(0, 0%, 100%, 0.7);
+            }
+          }
+        }
+        .usermsgisolator {
+          margin-left: 1.042vw;
+          margin-right: 0.99vw;
+          width: 0.052vw;
+          height: 3.646vw;
+          background-color: #e7ebf6;
+        }
+        .usermsgright {
+          div {
+            &:nth-child(2) {
+              margin-top: 0.417vw;
+              margin-bottom: 0.365vw;
+            }
+          }
+        }
+      }
+    }
+    .box {
+      display: flex;
+      .portalIndex-visitorapply {
+        margin: 0.625vw;
+        margin-left: 0;
+        width: 28.708vw;
+        height: 20.833vw;
+        background-color: #ffffff;
+        box-shadow: 0vw 0.156vw 0.469vw 0vw rgba(172, 200, 219, 0.46);
+        border-radius: 0.313vw;
+        border: solid 1px rgba(62, 147, 238, 0.2);
+        .visitorapplytitle {
+          height: 2.188vw;
+          width: 100%;
+          background-color: hsla(215, 84%, 27%, 0.24);
+          border-radius: 0.313vw 0.313vw 0vw 0vw;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-left: 0.573vw;
+          padding-right: 0.625vw;
+          .titleleft {
+            font-family: "SourceHanSansCN-Regular";
+            font-size: 0.938vw;
+            font-weight: bold;
+            font-stretch: normal;
+            letter-spacing: 0px;
+            color: #0d4491;
+          }
+          .titleright {
+            width: 6.354vw;
+            height: 1.563vw;
+            line-height: 1.563vw;
+            text-align: center;
+            border-radius: 0.104vw;
+            border: solid 2px #3e93ee;
+            font-family: "SourceHanSansCN-Regular";
+            font-size: 32px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 0px;
+            color: #3e93ee;
+          }
+        }
+        .visitorapplycontent {
+          padding: 6px;
+          display: flex;
+          flex-wrap: wrap;
+          padding-bottom: 194px;
+          width: 100%;
+          height: 714px;
+          .visitorapplylist {
+            width: 9.635vw;
+            height: 13.385vw;
+            margin-top: 0.156vw;
+            padding-left: 0.208vw;
+            margin-right: 1.094vw;
+            img {
+              width: 4.688vw;
+              height: 5.729vw;
+              background-color: #e7ebf6;
+              border-radius: 0.208vw;
+              margin-bottom: 0.521vw;
+            }
+            .content {
+              font-family: "SourceHanSansCN-Regular";
+              font-size: 0.833vw;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 0px;
+              color: #07244c;
+              div {
+                margin-top: 0.469vw;
+              }
+            }
+            .visitorapplybutton {
+              margin-top: 0.677vw;
+              width: 2.5vw;
+              height: 1.25vw;
+              text-align: center;
+              line-height: 1.25vw;
+              background-color: #1450a6;
+              border-radius: 0.208vw;
+              font-family: "SourceHanSansCN-Regular";
+              font-size: 0.729vw;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 0px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .portalIndex-task {
+        width: 37.021vw;
+        height: 20.833vw;
+        background-color: #ffffff;
+        box-shadow: 0vw 0.156vw 0.469vw 0vw rgba(172, 200, 219, 0.46);
+        border-radius: 0.313vw;
+        border: solid 2px rgba(62, 147, 238, 0.2);
+        margin-top: 0.625vw;
+        .tasktitle {
+          height: 2.188vw;
+          line-height: 2.188vw;
+          padding-left: 0.573vw;
+          background-color: hsla(215, 84%, 27%, 0.24);
+          border-radius: 0.313vw 0.313vw 0vw 0vw;
+          display: flex;
+          align-items: center;
+          div {
+            font-family: "SourceHanSansCN-Regular";
+            font-size: 0.938vw;
+            font-weight: bold;
+            font-stretch: normal;
+            letter-spacing: 0px;
+            color: #0d4491;
+          }
+        }
+        .tasklist {
+          padding: 0.625vw;
+        }
+      }
+      .portalIndex-shortcut {
+        width: 21.615vw;
+        height: 20.833vw;
+        margin-left: 0.625vw;
+        background-color: #ffffff;
+        margin-top: 0.625vw;
+        nav {
+          padding-left: 0.521vw;
+          height: 2.188vw;
+          background-color: hsla(215, 84%, 27%, 0.24);
+          border-radius: 0.313vw 0.313vw 0vw 0vw;
+          display: flex;
+          align-items: center;
+          div {
+            font-family: "SourceHanSansCN-Regular";
+            font-size: 0.938vw;
+            font-weight: bold;
+            font-stretch: normal;
+            letter-spacing: 0px;
+            color: #0d4491;
+          }
+        }
+        section {
+          display: flex;
+          flex-wrap: wrap;
+          padding-left: 0.625vw;
+          div {
+            margin-top: 0.729vw;
+            margin-right: 0.625vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            span {
+              text-align: center;
+              display: block;
+              font-family: "SourceHanSansCN-Regular";
+              font-size: 0.833vw;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 0px;
+              color: #666666;
+              margin-top: 0.469vw;
+            }
+            img {
+              width: 4.583vw;
+              height: 4.583vw;
+            }
+          }
+        }
+      }
+    }
+    .box {
+      display: flex;
+      .portalIndex-assess {
+        width: 21.615vw;
+        height: 20.208vw;
+        nav {
+          height: 2.188vw;
+          line-height: 2.188vw;
+          padding-left: 0.573vw;
+          background-color: hsla(215, 84%, 27%, 0.24);
+          border-radius: 0.313vw 0.313vw 0vw 0vw;
+          font-family: "SourceHanSansCN-Regular";
+          font-size: 0.938vw;
+          font-weight: bold;
+          font-stretch: normal;
+          letter-spacing: 0px;
+          color: #0d4491;
+        }
+        section {
+          height: 18.594vw;
+          background-color: #ffffff;
+          padding: 2.083vw 0px 0px 1.146vw;
+          div {
+            font-family: "SourceHanSansCN-Regular";
+            font-size: 0.833vw;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 0px;
+            color: #07244c;
+            span {
+              font-family: "SourceHanSansCN-Regular";
+              font-size: 1.771vw;
+              font-weight: bold;
+              font-stretch: normal;
+              letter-spacing: 0px;
+            }
+            &:nth-child(1),
+            &:nth-child(2) {
+              span {
+                color: #cc0000;
+                &:nth-child(1) {
+                  margin-left: 1.042vw;
+                  margin-right: 0.313vw;
+                }
+              }
+              i {
+                margin-left: 1.563vw;
+              }
+            }
+            &:nth-child(2) {
+              span {
+                &:nth-child(2) {
+                  margin-left: 0.471vw;
+                }
+              }
+            }
+            &:nth-child(3) {
+              span {
+                margin-left: 0.99vw;
+                margin-right: 0.417vw;
+                color: #6300ff;
+              }
+            }
+            &:nth-child(4) {
+              span {
+                margin-left: 0.938vw;
+                color: #595b00;
+              }
+            }
+          }
+        }
+      }
+      .portalIndex-booking {
+        margin-left: 0.625vw;
+        width: 21.74vw;
+        height: 20.208vw;
+        background-color: #ffffff;
+        box-shadow: 0vw 0.156vw 0.469vw 0vw rgba(172, 200, 219, 0.46);
+        border-radius: 0.313vw;
+        border: solid 0.052vw rgba(62, 147, 238, 0.2);
+        nav {
+          width: 100%;
+          background-color: hsla(215, 84%, 27%, 0.24);
+          border-radius: 12px 12px 0px 0px;
+          height: 2.188vw;
+          line-height: 2.188vw;
+          padding-left: 0.573vw;
+          font-family: "SourceHanSansCN-Regular";
+          font-size: 0.938vw;
+          font-weight: bold;
+          font-stretch: normal;
+          letter-spacing: 0px;
+          color: #0d4491;
+        }
+        section {
+          height: 18.594vw;
+          width: 100%;
+          background-color: #ffffff;
+          padding: 0.521vw 0.677vw 0.677vw 0.625vw;
+        }
+      }
+      .portalIndex-backlog {
+        width: 21.615vw;
+        height: 20.208vw;
+        margin-left: 0.625vw;
+        nav {
+          width: 100%;
+          padding-left: 0.573vw;
+          line-height: 2.188vw;
+          height: 2.188vw;
+          background-color: hsla(215, 84%, 27%, 0.24);
+          border-radius: 0.313vw 0.313vw 0vw 0vw;
+          font-family: "SourceHanSansCN-Regular";
+          font-size: 0.938vw;
+          font-weight: bold;
+          font-stretch: normal;
+          letter-spacing: 0px;
+          color: #0d4491;
+        }
+        section {
+          background-color: #ffffff;
+          height: 18.594vw;
+          width: 100%;
+          padding-left: 0.677vw;
+          padding-right: 0.729vw;
+          .backloglist {
+            border-bottom: 2px dashed #dfe6f0;
+            padding-bottom: 0.833vw;
+            padding-top: 0.833vw;
+            display: flex;
+            align-items: center;
+            width: 20.208vw;
+            .state {
+              width: 0.521vw;
+              height: 0.521vw;
+              background-color: #ffca01;
+              border-radius: 50%;
+              margin-right: 0.625vw;
+            }
+            .right {
+              width: 100%;
+              .righttop {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                div {
+                  &:nth-child(1) {
+                    font-family: "SourceHanSansCN-Regular";
+                    font-size: 0.941vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    letter-spacing: 0px;
+                    color: #07244d;
+                  }
+                  &:nth-child(2) {
+                    width: 2.5vw;
+                    height: 1.25vw;
+                    line-height: 1.25vw;
+                    text-align: center;
+                    background-color: #1450a6;
+                    border-radius: 0.208vw;
+                    font-family: "SourceHanSansCN-Regular";
+                    font-size: 0.729vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    letter-spacing: 0px;
+                    color: #ffffff;
+                  }
+                }
+              }
+              .describe {
+                margin-top: 0.625vw;
+                width: 18.75vw;
+                height: 0.938vw;
+                line-height: 0.938vw;
+                font-family: "SourceHanSansCN-Regular";
+                font-size: 0.941vw;
+                font-weight: normal;
+                font-stretch: normal;
+                letter-spacing: 0px;
+                color: #0d4491;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
